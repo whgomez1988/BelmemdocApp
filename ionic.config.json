@@ -1,0 +1,7 @@
+{
+  "name": "Belmemdoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
