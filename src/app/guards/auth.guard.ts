@@ -28,7 +28,7 @@ utilsSvc = inject(UtilsService);
           if(user) resolve(true);
         }
         else{
-          this.utilsSvc.routerLink('/auth');
+          this.firebaseSvc.SignOut()
           resolve(false);
         }
       })
